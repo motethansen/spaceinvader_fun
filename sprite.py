@@ -107,13 +107,15 @@ if __name__ == "__main__":
     animator = SpriteAnimator()
     #animator.add_sprite("alien", "black_pixel_alien.pixil")  # Replace with your .pixil file paths
     #animator.add_sprite("alien_saucer", "black_saucer_alien.pixil")
-    animator.add_sprite("space_invader", "black_space_invader.pixil")
-    animator.add_sprite("blck_alien", "blck_alien.pixil")
-    animator.add_sprite("blue_alien", "blue_alien.pixil")
+    #animator.add_sprite("space_invader", "black_space_invader.pixil")
+    #animator.add_sprite("blck_alien", "blck_alien.pixil")
+    #animator.add_sprite("blue_alien", "blue_alien.pixil")
+    animator.add_sprite("explotion", "explotion.pixil")
     #animator.set_sprite_position("alien", 50, 50)  # Set initial position
     #animator.set_sprite_position("alien_saucer", 150, 50)
-    animator.set_sprite_position("space_invader", 50, 50)
-    animator.set_sprite_position("blue_alien", 150, 150)
+    #animator.set_sprite_position("space_invader", 50, 50)
+    #animator.set_sprite_position("blue_alien", 150, 150)
+    animator.set_sprite_position("explotion", 150, 150)
     animator.animate()
 
    
