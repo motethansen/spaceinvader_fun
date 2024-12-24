@@ -6,6 +6,7 @@ install:
 python -m venv .venv
 
 source .venv/bin/activate
+
 pip install pygame
 
 python space_invader.py  to run the game
