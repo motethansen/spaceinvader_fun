@@ -8,4 +8,8 @@ python -m venv .venv
 source .venv/bin/activate
 pip install pygame
 
-python main.py  to run the game
+python space_invader.py  to run the game
+
+The sprite.py is the sprite animation class, which was tested with several pixil files.
+only two of the sprites were used in the game for now.
+
