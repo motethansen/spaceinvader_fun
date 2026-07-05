@@ -13,7 +13,7 @@ class SpriteAnimator:
         self.pixel_size = pixel_size
         self.fps = fps
         self.frame_rate = frame_rate
-        self.screen = pygame.display.set_mode((self.screen_width, self.screen_height))
+        self.screen = pygame.display.set_mode((self.screen_width, self.screen_height), pygame.DOUBLEBUF)
         self.clock = pygame.time.Clock()
 
         # Color constants
