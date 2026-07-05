@@ -52,3 +52,6 @@ src_c/_sdl2/sdl2.c
 src_c/_sdl2/video.c
 src_c/_sprite.c
 src_c/pypm.c
+
+# Python virtualenv (accidentally committed)
+.venv/
